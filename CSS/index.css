@@ -116,3 +116,99 @@ body
     font-size: 4.5rem;
     text-align: center;
 }
+
+
+/* Weather app */
+.weather-container
+{
+    display: flex;
+    align-items:center;
+    width: 100%;
+    min-width: 500px;
+    height: auto;
+    background-color: rgb(194, 210, 211);
+    flex-direction: column;
+    padding: 10rem 0px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.weather-container h1
+{
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+.weather-container .display
+{
+    background: white;
+    margin-top: 30px;
+    height: auto;
+    min-width: 20rem;
+    width: auto;
+    border-radius: 30px;
+}
+
+.weather-container .wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;  
+}
+
+.weather-container .wrapper h2
+{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.weather-container .wrapper p
+{
+    padding-bottom: 1rem;
+}
+
+.inputs
+{
+    padding: 3rem  3rem ;
+    text-align: center;
+    justify-content: center;
+    background: rgb(248, 248, 248);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.inputs input[type="text"]
+{
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+
+.inputs input[type="submit"]
+{
+    height:  3.2rem;
+    width: 6.5rem;
+    background: #ff0101;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.inputs input[type="submit"]:hover
+{
+    font-size: 1.3rem;
+    background-color: #1950b696;
+    color: #0400ff;
+}

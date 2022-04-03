@@ -36,10 +36,22 @@
 
     <section>
         <div class="weather-container">
-            <div class="icon">---</div>
-            <div class="temp">---C</div>
-            <div class="summary">---</div>
-            <div class="location"></div>
+            <div class="inputs">
+                <h1>Weather App</h1>
+                <input type="text" placeholder="Enter any city..." id="cityinput">
+                <input type="submit" value="Submit" id="add">
+
+                <button placeholder="submit" id="add"></button>
+            </div>
+
+            <div class="display">
+                <div class="wrapper">
+                    <h2 id="cityoutput">City</h2>
+                    <p id="description">Description</p>
+                    <p id="temp">Temp</p>
+                    <p id="wind">Wind</p>
+                </div>
+            </div>
         </div>
     </section>
 
