@@ -54,3 +54,22 @@ btn.addEventListener('click', function(){
 
     .catch(err => alert('You entered Wrong cityu name'));
 })
+
+
+/* Google maps */
+/*
+function initMap()
+{
+    const uluru = {lat: -25.344, lng: 131.036};
+
+    let map = new google.maps.Map(document.getElementById("google_map"),{
+        zoom: 4,
+        center: uluru,
+    });
+
+    const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+    });
+}
+*/
