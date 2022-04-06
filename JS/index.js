@@ -1,3 +1,19 @@
+/* NavBar */
+
+var hamburger = document.querySelector(".hamburger");
+var navBar = document.querySelector(".navbar-content");
+
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu()
+{
+   hamburger.classList.toggle("active");
+   navBar.classList.toggle("active");
+}
+
+
+
 /* Count down */
 var countDownDate = new Date("Jan 1, 2023 00:00:01").getTime();
 
